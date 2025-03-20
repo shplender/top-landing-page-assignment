@@ -1,2 +1,9 @@
 /.projectile
 /bs-config.js
+/node_modules
+/.eslintrc.js
+/.prettierignore
+/.prettierrc
+/.projectile
+/package-lock.json
+/package.json
