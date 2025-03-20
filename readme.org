@@ -1,0 +1,8 @@
+#+title: Landing page
+
+* Assignment from The Oding Project.
+** Project:
+Landing Page
+https://www.theodinproject.com/lessons/foundations-landing-page
+** Course:
+Foundations Course
