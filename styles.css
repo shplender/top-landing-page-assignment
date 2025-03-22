@@ -63,7 +63,6 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0 80px;
-    /* justify-content: space-between; */
     margin-bottom: 32px;
 }
 
