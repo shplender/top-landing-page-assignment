@@ -12,9 +12,8 @@ html {
 
 body {
     display: flex;
-    /* height: 100vh; */
     font-family: Roboto, sans-serif;
-    background-color: #eaded5;
+    background: #ffefd3;
     margin: auto;
     justify-content: center;
 }
@@ -30,7 +29,6 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    align-items: space-between;
     align-content: center;
     background: #1d3b3d;
     color: #f3ebe9;
@@ -65,12 +63,9 @@ a:hover {
 
 .container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* justify-content: center; */
-    margin-bottom: 16px;
-    margin-top: 32px;
+    margin: 32px 0 0;
 }
 
 .signup {
@@ -99,7 +94,7 @@ h1 {
 button {
     border: none;
     border-radius: 8px;
-    padding: 10px 20px;
+    padding: 8px 32px;
     color: #f9faf8;
     background-color: #3a82f6;
     font-weight: 600;
@@ -111,7 +106,7 @@ button {
 }
 
 button:hover {
-    background-color: #2b6cb0;
+    background-color: #47738a;
 }
 
 .credentials {
@@ -135,7 +130,6 @@ button:hover {
 }
 .item-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     flex: 1;
@@ -148,20 +142,62 @@ button:hover {
     height: 162px;
     outline: #3a82f6 solid;
     border-radius: 8px;
-    margin: 0px 32px 76px 32px;
+    margin: 0 32px 76px;
 }
 .subtext {
     margin-top: 12px;
-    padding: 0;
     text-align: center;
 }
 
 .citation-block {
     display: flex;
-    padding: 52px 200px;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #e4ca9a;
+    padding: 48px 200px;
+    background-color: #f9deaa;
     font-size: 36px;
     font-style: italic;
+}
+
+.action-container {
+    padding: 48px 200px;
+}
+
+.action-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #3a82f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    padding: 32px 128px;
+    min-width: 500px;
+    font-size: 20px;
+}
+
+.action-box p {
+    margin: 0;
+}
+.action-box .agitation-header {
+    font-size: 24px;
+    font-weight: 600;
+}
+.action-box button {
+    border: medium solid #f9faf8;
+    padding: 8px 32px;
+    font-size: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1d3b3d;
+    color: #f9faf8;
 }
