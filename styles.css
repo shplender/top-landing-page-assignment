@@ -22,6 +22,7 @@ body {
 .page {
     display: flex;
     flex-direction: column;
+    align-content: space-between;
     width: 1516px;
     min-width: 768px;
 }
@@ -30,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    align-content: center;
     background: #1d3b3d;
     color: #f3ebe9;
     padding: 16px 100px;
@@ -40,7 +42,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 100px;
 }
 
 ul {
@@ -66,8 +67,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 100px;
+    justify-content: center;
     margin-bottom: 16px;
     margin-top: 32px;
 }
@@ -80,6 +80,7 @@ a:hover {
 }
 
 .image {
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
