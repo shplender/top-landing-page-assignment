@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 html {
+    /* display: flex; */ /*!!? \_(o|o)_/  */
     box-sizing: border-box;
 }
 
@@ -13,23 +14,25 @@ body {
     display: flex;
     /* height: 100vh; */
     font-family: Roboto, sans-serif;
-    background-color: #f3f4f6;
+    background-color: #f3ebe9;
     margin: auto;
-    padding: 0px 250px;
     justify-content: center;
 }
 
 .page {
     display: flex;
     flex-direction: column;
+    width: 1516px;
+    min-width: 768px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    background: #1f2937;
-    color: #f9faf8;
-    padding: 0 100px;
+    align-items: space-between;
+    background: #1d3b3d;
+    color: #f3ebe9;
+    padding: 16px 100px;
 }
 
 .top {
@@ -37,7 +40,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 0px 100px;
 }
 
 ul {
@@ -50,7 +53,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #f3ebe9;
     font-size: 18px;
     transition: color 0.3s;
 }
@@ -65,29 +68,28 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 100px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
+    margin-top: 32px;
 }
 
 .signup {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
     width: 500px;
-}
-
-.button-container {
-    margin-top: auto;
 }
 
 .image {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 8px;
 }
 
 h1 {
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
     font-size: 48px;
     font-weight: 900;
 }
@@ -103,7 +105,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
 }
 
 button:hover {
@@ -115,17 +117,23 @@ button:hover {
 }
 
 .rand-info {
+    /*TODO: combine with header*/
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: space-between;
     margin-top: 24px;
-    padding: 0 80px;
+    padding: 0 100px;
 }
 
+.random-header {
+    text-align: center;
+    margin-bottom: 24px;
+}
 .item-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 64px;
+    justify-content: space-around;
     flex: 1;
 }
 
@@ -136,9 +144,10 @@ button:hover {
     height: 162px;
     outline: #3a82f6 solid;
     border-radius: 8px;
-    margin-bottom: 16px;
+    margin: 0px 32px 76px 32px;
 }
 .subtext {
-    margin-top: 8px;
+    margin-top: 12px;
+    padding: 0;
     text-align: center;
 }
